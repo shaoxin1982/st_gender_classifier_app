@@ -51,9 +51,5 @@ def main():
         st.success("Name {}, was classified as {}.".format(name.title(), prediction))
         load_images(c_image)
 
-
-
-
-
 if __name__ == "__main__":
     main()
